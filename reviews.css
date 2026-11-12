@@ -1,0 +1,19 @@
+/* Prova social e imagens comerciais */
+.image-note{font-size:12px;color:var(--muted);margin:18px 0 0}
+.reviews{background:var(--navy);color:white}
+.reviews-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:38px}
+.reviews .eyebrow{color:#8fd5e7}
+.reviews-heading h2{margin-bottom:14px}
+.reviews-heading p{color:#d4e4eb}
+.google-link{color:var(--navy);background:var(--yellow);border-radius:28px;padding:13px 21px;text-decoration:none;font-weight:700;white-space:nowrap}
+.review-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.review-grid article{grid-column:span 2;background:white;color:var(--ink);border-radius:16px;padding:28px;box-shadow:0 12px 30px #00141f45}
+.review-grid article:nth-child(4){grid-column:2/span 2}
+.review-grid article:nth-child(5){grid-column:4/span 2}
+.stars{color:#f2ad00;letter-spacing:3px;font-size:18px}
+.review-grid blockquote{margin:18px 0 24px;font-size:16px;line-height:1.65}
+.review-grid article>p{margin:0;padding-top:18px;border-top:1px solid #e1eaee}
+.review-grid strong,.review-grid span{display:block}
+.review-grid span{font-size:12px;color:var(--muted);margin-top:3px}
+@media(max-width:900px){.review-grid{grid-template-columns:1fr 1fr}.review-grid article,.review-grid article:nth-child(4),.review-grid article:nth-child(5){grid-column:auto}.review-grid article:last-child{grid-column:1/-1}}
+@media(max-width:760px){.reviews-heading{display:block}.google-link{display:inline-block;margin-top:8px}.review-grid{grid-template-columns:1fr}.review-grid article,.review-grid article:last-child{grid-column:auto;padding:24px}}
