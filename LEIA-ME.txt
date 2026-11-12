@@ -1,0 +1,30 @@
+VERSÃO 3 — LOGO CIRCULAR
+
+Cabeçalho azul claro com logo acomodado em um círculo branco de contorno discreto. Layout claro, foto em destaque, cartões arredondados e cores azul e amarelo.
+A imagem original da marca foi preservada.
+
+KONSEG — LANDING PAGE
+
+Para visualizar: extraia o ZIP e abra index.html no navegador.
+Os botões abrem o WhatsApp (12) 99163-1525 com mensagem identificando a origem site Konseg e o serviço.
+
+PARA PUBLICAR NO CLOUDFLARE PAGES
+1. Entre na sua conta Cloudflare e abra Workers & Pages.
+2. Crie um projeto Pages usando Direct Upload (upload de arquivos).
+3. Envie index.html, style.css, script.js e a pasta assets juntos, na raiz do projeto. O index.html deve ficar na raiz.
+4. Confira a página no endereço temporário fornecido pelo Cloudflare.
+5. Adicione konseg.com.br à conta Cloudflare. Copie os dois servidores DNS fornecidos para esse domínio.
+6. No Registro.br, abra konseg.com.br e substitua os servidores DNS pelos dois valores fornecidos pelo Cloudflare.
+7. No projeto Pages, adicione konseg.com.br e www.konseg.com.br em Custom domains. Siga os registros indicados pelo painel.
+8. Configure redirecionamento de www.konseg.com.br para https://konseg.com.br, preservando o caminho.
+9. Aguarde a ativação do domínio e HTTPS. Teste ambos os endereços, as fotos e os botões pelo celular.
+
+Não envie este LEIA-ME.txt ao publicar se preferir mantê-lo fora do site.
+
+CONTEÚDO
+Avaliação gratuita em São José dos Campos e região. Litoral Norte: consulte as condições.
+Atendimento: segunda a sexta, 8h às 18h; visitas mediante agendamento.
+Fotos reais obtidas da pasta Konseg Midia. Logo extraído de arte existente nessa pasta.
+Não foram incluídos depoimentos ou números de experiência sem comprovação.
+Não há formulários, rastreadores ou integração automática com agenda.
+A abertura do WhatsApp não confirma visita nem garante envio da mensagem: o cliente envia pelo aplicativo.

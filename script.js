@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-service]').forEach(link=>{const service=link.dataset.service;link.href='https://wa.me/5512991631525?text='+encodeURIComponent('Olá! Vim pelo site Konseg e gostaria de solicitar '+service+'. Minha cidade e bairro são: ');link.target='_blank';link.rel='noopener noreferrer';});
